@@ -1,0 +1,264 @@
+.about{
+    background: rgb(240, 239, 239);
+    position: relative;
+}
+.img{
+    height: 20rem;
+    width: 20rem;
+}
+.pic{
+    width: 80%;
+    height: 100%;
+}
+.about_heading{
+    padding: 2rem 0;
+    text-transform: capitalize;
+}
+.about_heading>span{
+    color: goldenrod;
+    border-bottom: 3px solid black;
+}
+.intro{
+    padding: 2rem;
+    padding-top: 5rem;
+    background: url("https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHdvcmtzcGFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    backdrop-filter: blur(5rem);
+}
+.intro_content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3rem;
+    margin-top: 2rem;
+    align-items: center;
+    border: 1px solid balck;
+}
+.intro_content p{
+    line-height: 2rem;
+    background: white;
+    color: gray;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px solid rgba(128, 128, 128, 0.719);
+}
+.services{
+    padding: 2rem;
+}
+.service_card{
+    display: flex;
+    border: 1px solid rgb(218, 216, 216);
+    background: white;
+    margin-bottom: 2rem;
+
+}
+.service_card img{
+    width: 20rem;
+    height: 15rem;
+}
+.service_card_body{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.service_card_body>h3{
+    text-transform: capitalize;
+    color: rgb(153, 138, 102);
+    margin-bottom: 1rem;
+}
+.service_p{
+    line-height: 1.5rem;
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 1rem;
+}
+.skills{
+    display: flex;
+}
+.skills span{
+    background: rgb(153, 138, 102);
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.education{
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    background: url("https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvcmslMjBkZXNrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(5rem);
+}
+.edd_heading{
+    color: goldenrod;
+}
+.edd_wrapper{
+    background: rgba(255, 255, 255, 0.541);
+    padding: 1rem;
+}
+.edd{
+    margin: 1rem 0;
+    box-shadow: 1px 1px 3px gray;
+    padding: 1rem;
+}
+.edd>h3{
+    text-transform: capitalize;
+    color: rgb(87, 85, 85);
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.edd>h3>span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.edd_title{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding-bottom: 0.3rem;
+    text-transform: capitalize;
+}
+.cert{
+    color: rgb(87, 85, 85);
+}
+.date{
+    text-transform: capitalize;
+    color: rgb(87, 85, 85);
+}
+
+@media screen and (max-width: 1180px) {
+    .service_card img{
+        width: 15rem;
+        height: 13rem;
+    }
+    .skills span{
+        padding: 0.5rem 1.5rem;
+        margin-right: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .service_p{
+        line-height: 1.3rem;
+    }
+    .service_card{
+        margin-bottom: 1rem 2rem;
+    
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro_content>p{
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    .service_card img{
+        width: 13rem;
+        height: 10rem;
+    }
+    .skills span{
+        padding: 0.5rem 1.5rem;
+        margin-right: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .service_p{
+        line-height: 1.3rem;
+        font-size: 0.8rem;
+    }
+    .service_card{
+        margin-bottom: 1rem 2rem;
+    }
+    .service_card_body{
+        padding: 1rem;
+    }
+    .service_card_body>h3{
+        margin-bottom: 0.7rem;
+    }
+}
+@media screen and (max-width: 830px) {
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills span{
+        margin-top: 0.9rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    .intro_content>p{
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .intro_content{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .intro_content>p{
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+    }
+    .intro_content{
+        display: block;
+        grid-gap: 0;
+    }
+    .img{
+        width: 5rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+    .pic{
+        border-radius: 50%;
+    }
+    .intro{
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+    .services{
+        padding: 1rem;
+    }
+    .date{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .education{
+        padding: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 3rem;
+    }
+    .edd>h3{
+        font-size: 0.9rem;
+    }
+    .edd>h3>span{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .edd{
+        
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .service_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .service_card img{
+        width: 100%;
+        height: 15rem;
+    }
+    .intro{
+        padding-top: 3rem;
+    }
+    .intro_content{
+        margin-top: 0;
+    }
+}
