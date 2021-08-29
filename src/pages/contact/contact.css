@@ -102,4 +102,11 @@
     .contact_text_box>p{
         font-size: 0.8rem;
     }
+    .contact_text_box{
+        max-width: 100%;
+    }
+    .text_fields{
+        margin-left: 0;
+        width: 100%;
+    }
 }
