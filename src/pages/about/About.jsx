@@ -43,13 +43,8 @@ function About() {
             <div className="service_card_body">
               <h3>Front-end web development</h3>
               <p className="service_p">
-                Using the Front End Trio [HTML, CSS and JavaScript] with
-                pre-processors and build tools such as SCSS, I efficently
-                implement Web Designs along with its functionalities. I also
-                make utilise other tools such as Bootstrap and Material UI to
-                ensure i deliver responsive web pages. I am equally proficient
-                in the javascript library like React JS and React JSLibraries to
-                build component based Single Paged Web Applications.
+                Using the Front-end Trio: HTML, CSS and JavaScript with pre-processors and build tools such as SCSS and SASS, I efficently implement Web Designs along with its functionalities. I also
+                make use of other tools such as Bootstrap and Material UI to ensure I deliver responsive web pages. I am equally proficient in the React.JS javascript library and its Next.JS frame-work in implementing full fledged front-ends.
               </p>
               <div className="skills">
                 <span>HTML </span>
@@ -68,11 +63,7 @@ function About() {
             <div className="service_card_body">
               <h3>Back-end development</h3>
               <p className="service_p">
-                Using Node js for backend or serverside language with frames
-                works like Express, EJS, NodeMon and some other npm packages.
-                Also working with noSQL database with eperience from python and
-                the Kivy frame work and deploying of websites using netlify and
-                other free hosting services
+                Using Node js as a backend or serverside language with npm packages and frame-works like Express, EJS, NodeMon and some other npm packages. Also working with noSQL database with eperience from python and the Kivy frame work and deploying of websites using netlify and other free hosting services
               </p>
               <div className="skills">
                 <span>Node.js</span>
