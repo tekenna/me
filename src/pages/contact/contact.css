@@ -97,6 +97,7 @@
 @media screen and (max-width: 500px) {
     .contact_wrapper{
         max-width: 100%;
+        flex-direction: column;
     }
     .contact_text_box>p{
         font-size: 0.8rem;
