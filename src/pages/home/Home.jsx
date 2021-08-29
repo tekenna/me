@@ -16,18 +16,18 @@ function Home() {
                 <p><span>Full stack developer</span> (MERN stack)</p>
                 <div className="icon_wrap">
                     <IoLogoWhatsapp className="icon" onClick={()=>alert(`whatsapp line: 08180322527 \nor \ncall 08052701647 `)} />
-                    <a href="https://web.facebook.com/jerry.kada.50">
-                        <AiFillFacebook className="icon" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/kada-jeremiah-tekenna-b1a582176/">
-                        <AiFillLinkedin className="icon" />
-                    </a>
-                    <a href="https://web.telegram.org/k/">
-                        <FaTelegram className="icon" />
-                    </a>
-                    <a href="#">
-                        <AiFillTwitterSquare className="icon"/>
-                    </a>
+                        <a href="https://web.facebook.com/jerry.kada.50">
+                            <AiFillFacebook className="icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/kada-jeremiah-tekenna-b1a582176/">
+                            <AiFillLinkedin className="icon" />
+                        </a>
+                        <a href="https://web.telegram.org/k/">
+                            <FaTelegram className="icon" />
+                        </a>
+                        <a href="https://twitter.com/Tekenna1?s=08">
+                            <AiFillTwitterSquare className="icon"/>
+                        </a>
                 </div>
                 <div className="buttons">
                     <Link to="/contact">
