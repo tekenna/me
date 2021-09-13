@@ -69,6 +69,10 @@
     background: goldenrod;
     color: white;
 }
+.btns button a{
+    color: inherit;
+    text-decoration: none;
+}
 @media screen and (max-width: 1150px) {
     .pro_content{
         margin: 0 1rem;

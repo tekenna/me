@@ -30,8 +30,8 @@ function Projects() {
                         <h3>Clone of netflix landing page </h3>
                         <p>Built with react</p>
                         <div className="btns">
-                            <button>View live project</button>
-                            <button>View source code</button>
+                            <button><a href="https://objective-hamilton-43cf0c.netlify.app">View live project</a></button>
+                            <button> <a href="https://github.com/tekenna/netflix-landing-page">View source code</a></button>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ function Projects() {
                         <h3>Online phone store</h3>
                         <p>Built with react.js utilizing the context api</p>
                         <div className="btns">
-                            <button> View live project</button>
-                            <button>View source code</button>
+                            <button><a href="https://kadas-store.netlify.app">View live project</a></button>
+                            <button> <a href="https://github.com/tekenna/store-project/tree/master">View source code</a></button>
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,8 @@ function Projects() {
                         <h3>carbon footprint calculator</h3>
                         <p>Built with react.js and node.js</p>
                         <div className="btns">
-                            <button>View live project</button>
-                            <button>View source code</button>
+                        <button><a href="https://f-print.netlify.app">View live project</a></button>
+                            <button> <a href="https://github.com/tekenna/fprint">View source code</a></button>
                         </div>
                     </div>
                 </div>
@@ -108,8 +108,8 @@ function Projects() {
                         <h3>My first ever react project</h3>
                         <p>Built with react</p>
                         <div className="btns">
-                            <button>View live project</button>
-                            <button>View source code</button>
+                            <button><a href="https://kadas-store.netlify.app">View live project</a></button>
+                            <button> <a href="https://github.com/tekenna/store-project/tree/master">View source code</a></button>
                         </div>
                     </div>
                 </div>
@@ -135,8 +135,8 @@ function Projects() {
                         <h3>website template</h3>
                         <p>Built with HTML and CSS</p>
                         <div className="btns">
-                            <button>View live project</button>
-                            <button>View source code</button>
+                            <button><a href="https://gracious-snyder-ebb6f9.netlify.app">View live project</a></button>
+                            <button> <a href="https://github.com/tekenna/zuri-project-assignment/tree/master">View source code</a></button>
                         </div>
                     </div>
                 </div>
